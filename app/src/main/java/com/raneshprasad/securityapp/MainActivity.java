@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button logIn;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), LogIn.class);
                 startActivity(i);
+                Toast.makeText(getApplicationContext(), "Yay", Toast.LENGTH_LONG).show();
             }
         });
         signUp.setOnClickListener(new View.OnClickListener() {
