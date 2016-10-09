@@ -36,9 +36,10 @@ public class SignUp extends AppCompatActivity {
                 in the text from EditText and converting it to string.
 
                  */
-                name_str = name.getText().toString();
-                email_str = email.getText().toString();
-                password_str = password.getText().toString();
+                //name_str = name.getText().toString();
+                //email_str = email.getText().toString();
+                //password_str = password.getText().toString();
+                //Make the kids type these 3 lines
                 myRef.push().setValue(name_str + " " +password_str);
 
                 myRef.push().child(name_str).setValue(email_str);

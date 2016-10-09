@@ -33,8 +33,9 @@ public class LogIn extends AppCompatActivity {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            username_str = username.getText().toString();
-            pass_str = password.getText().toString();
+            //username_str = username.getText().toString();
+            //pass_str = password.getText().toString();
+                //Vybhav, make them complete these two lines, thats it
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
