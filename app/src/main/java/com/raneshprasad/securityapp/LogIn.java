@@ -42,7 +42,7 @@ public class LogIn extends AppCompatActivity {
                         if(postSnapshot.getValue().toString().equals(username_str + " " +pass_str) ){
                             intent = new Intent(getApplicationContext(), DataActivity.class);
                             startActivity(intent);
-                        }else if(postSnapshot.getValue().toString().substring(0, username_str.length()).equals(username_str) || postSnapshot.getValue().toString().substring(username_str.length() + 1).equals(pass_str)){
+                        }else /*postSnapshot.getValue().toString().substring(0, username_str.length()).equals(username_str) || postSnapshot.getValue().toString().substring(username_str.length() + 1).equals(pass_str)*/ {
                             Toast.makeText(getApplicationContext(), "Either your username or your password is incorrect.", Toast.LENGTH_LONG).show();
                             username.setText("");
                             password.setText("");
