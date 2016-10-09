@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "179967091676",
+    "firebase_url": "https://securityapp-bdc15.firebaseio.com",
+    "project_id": "securityapp-bdc15",
+    "storage_bucket": "securityapp-bdc15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179967091676:android:2856e0d57fdd12b6",
+        "android_client_info": {
+          "package_name": "com.raneshprasad.securityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179967091676-o95b8p73cm68jukpj4pvioq1dpupf7ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkzhcfr5bhboUH65XhkaGkwI2HAUKeD1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
